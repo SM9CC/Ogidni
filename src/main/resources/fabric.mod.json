@@ -7,9 +7,12 @@
 	"authors": [
 		"comp500"
 	],
-	"contact": {},
-	"license": "MIT",
-	"icon": "assets/ogidni/icon.png",
+	"contact": {
+		"sources": "https://github.com/SM9CC/Ogidni",
+		"homepage": "https://github.com/SM9CC/Ogidni",
+		"issues": "https://github.com/SM9CC/Ogidni/issues"
+	},
+	"license": "Apache-2.0",
 	"environment": "client",
 	"custom": {
 		"fabric-renderer-api-v1:contains_renderer": true
