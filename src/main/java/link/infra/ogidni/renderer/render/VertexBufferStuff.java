@@ -196,11 +196,6 @@ public class VertexBufferStuff {
 				}
 				builder.build(buf);
 			}
-			long endTime = System.nanoTime();
-			if (frameQueueLimit < 10) {
-				System.out.println("Built " + (10 - frameQueueLimit) + " regions in " + ((endTime - startTime)/1000000) + " ms");
-			}
-
 			// TODO: reuse VBOs?
 //			context.profiler().swap("regionBufferRender");
 			// Iterate over all RegionBuffers, render them
